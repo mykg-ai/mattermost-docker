@@ -1,4 +1,4 @@
-FROM nginx:mainline-alpine
+FROM registry.cn-beijing.aliyuncs.com/mykg/nginx:mainline-alpine
 
 # Remove default configuration and add our custom Nginx configuration files
 RUN rm /etc/nginx/conf.d/default.conf \

@@ -1,4 +1,4 @@
-FROM postgres:9.4-alpine
+FROM registry.cn-beijing.aliyuncs.com/mykg/postgres:9.4-alpine
 
 ENV DEFAULT_TIMEZONE UTC
 

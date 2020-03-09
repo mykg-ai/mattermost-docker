@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM registry.cn-beijing.aliyuncs.com/mykg/alpine:3.10
 
 # Some ENV variables
 ENV PATH="/mattermost/bin:${PATH}"
